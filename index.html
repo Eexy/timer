@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p class="date">0</p>
-    <button class="start">start</button>
-    <button class="clear">clear</button>
-    <button class="pause">pause</button>
+    <div class="wrapper">
+        <div class="timer-wrapper">
+            <p class="timer"><span class="hour">00</span> : <span class="min">00</span> : <span class="sec">00</span>s</p>
+        </div>
+        <div class="timer-buttons-row">
+            <button class="start-btn start timer-btn">start</button>
+            <button class="clear timer-btn">clear</button>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

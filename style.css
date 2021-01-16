@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    background: #020f38;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    padding: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-wrapper{
+    height: 300px;
+    width: 300px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+}
+
+.timer-buttons-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+.timer-btn{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.start{
+    background: rgb(8, 206, 113)
+}
+
+
+
+.clear{
+    background: rgb(223, 23, 56);
+}
+
+.pause{
+    background: rgb(241, 170, 14);
+}
